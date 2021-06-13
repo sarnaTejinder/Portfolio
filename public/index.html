@@ -9,6 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -40,4 +41,27 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    function scrollHead(){
+      const nav = document.getElementById('header')
+      if(this.scrollY >=80) 
+      nav.classList.add('scroll-header')
+      else
+      nav.classList.remove('scroll-header')
+    }
+
+    window.addEventListener('scroll',scrollHead)
+
+    function scrollTop(){
+      const scroll = document.getElementById('scroll-up')
+      if(this.scrollY >=560) 
+      scroll.classList.add('show-scroll')
+      else
+      scroll.classList.remove('show-scroll')
+    }
+
+    window.addEventListener('scroll',scrollTop)
+    </script>
 </html>
+<!-- <img alt="profile" className="hero-img" src="https://media-exp1.licdn.com/dms/image/C5603AQFrbmh9f35eJw/profile-displayphoto-shrink_800_800/0/1622282696209?e=1628726400&v=beta&t=kn40Px3oDvVZ7_ApIpDjMIal5K0iJsi4zyUTdw8Atm0"/>
+ -->

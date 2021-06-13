@@ -1,0 +1,55 @@
+.project-img{
+    border-radius: 8px;
+}
+
+.project-card{
+    border-radius: 8px;
+    gap: 0.75rem;
+    
+}
+
+.project-data{
+    padding: 0 0.2rem;
+}
+
+.project-title{
+    font-size: var(--h3-size);
+    margin-bottom: 0.5rem;
+}
+
+.project-desc{
+    margin-bottom: 0.75rem;
+}
+
+.slider-arrow svg{
+    position: fixed;
+    top: 50%;
+    margin:0.5rem;
+    font-weight: var(--font-med);
+    font-size: var(--big-size);
+}
+.slider-arrow{
+    background-color: var(--input-color);
+    border-radius: 50%;
+}
+
+.slider-arrow:hover{
+    cursor: pointer;
+}
+
+.container.none{
+    position: absolute;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.container.active{
+    width: 100%;
+    opacity: 1;
+    transition: 1s;
+}
+
+.slider{
+    display: flex;
+}
+

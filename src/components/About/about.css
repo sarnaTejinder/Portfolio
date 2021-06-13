@@ -1,0 +1,13 @@
+.l-container,.ed-container{
+    margin-bottom: 2rem;
+  }
+
+  .ed{
+    font-size: var(--h3-size);
+    color: var(--title-color);
+    text-decoration: underline;
+    text-decoration-color: var(--first-color);
+    /* text-decoration-thickness: 1px; */
+    margin-bottom: 0.5rem;
+  }
+  

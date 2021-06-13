@@ -1,0 +1,25 @@
+
+.ed-card,.l-card{
+    background-color: var(--body-color);
+    margin-bottom: 0.5rem;
+    border-bottom: 1px dashed rgb(138, 138, 138);
+    padding: 0 0.2rem;
+  }
+  
+  .ed-title,.l-title{
+    font-size: var(--normal-size);
+  }
+  
+  .ed-desc,.l-desc{
+    font-size: var(--small-size);
+  }
+  
+  .ed-year,.l-certi,.l-link{
+    font-size: var(--smaller-size);
+  }
+  
+  
+  .l-link{
+    color: var(--first-color);
+  }
+  

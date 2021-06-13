@@ -1,0 +1,8 @@
+.tech{
+    display: inline-block;
+    background-color:var(--input-color);
+    color:var(--text-color);
+    margin: 0.2rem ;
+    padding:  0.2rem 0.8rem; 
+    border-radius: 8px;
+}
