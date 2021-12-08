@@ -17,9 +17,6 @@ import SendRoundedIcon from '@material-ui/icons/SendRounded';
                             <GitHubIcon/>
                         </a>
                     </div>
-                    <div className="home-img">
-                    <img alt="profile" x="12" y="18" className="home-main-img" src="https://media-exp1.licdn.com/dms/image/C5603AQFrbmh9f35eJw/profile-displayphoto-shrink_800_800/0/1622282696209?e=1628726400&v=beta&t=kn40Px3oDvVZ7_ApIpDjMIal5K0iJsi4zyUTdw8Atm0"/>
-                    </div>
                     <div className="home-data">
                         <h1 className="home-title">Hi, I'm Tejinder</h1>
                         <h3 className="home-subtitle">ReactJs Developer</h3>
